@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*    background-color:bisque ;*/
+    background-image: url('file:///C:/Users/Pooja/Downloads/pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg');
+    /*    background-position: top;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*    background-position: fixed;*/
+    /*    position: fixed;*/
+    /*    background-image: url('file:///C:/Users/Pooja/Downloads/pexels-stephan-seeber-1261728.jpg');*/
+    /*    background-image: url('file:///C:/Users/Pooja/Downloads/%E2%80%94Pngtree%E2%80%94modern%20double%20colors%20neon%20lights_1170045.png');*/
+    /*    background-image: url('file:///C:/Users/Pooja/Downloads/pexels-pixabay-235985.jpg');*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.iconav {
+    color: black;
+    /*    background-color:white;*/
+    background-image: url('file:///C:/Users/Pooja/Downloads/colored-g4e9290126_1920.jpg');
+    /*    background-image: url('file:///C:/Users/Pooja/Downloads/%E2%80%94Pngtree%E2%80%94modern%20double%20colors%20neon%20lights_1170045.png');*/
+    /*    background-color: red;*/
+    background-size: cover;
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    /*    position: relative;*/
+    position: fixed;
+    /*    margin-top:-50px;*/
+    opacity: 1;
+}
+
+.iconav>nav {
+    line-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    /*    padding-right: 50px;*/
+    /*    letter-spacing: 50px;*/
+    position: fixed;
+}
+
+.iconav>nav>ul>li>h1 {
+    margin-right: 600px;
+    color: red;
+    margin-left: 60px;
+}
+
+.iconav>nav>ul>li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.iconav>nav>ul>li>a {
+    text-decoration: none;
+    padding-left: 2px;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 250;
+}
+
+.iconav>nav>ul>li>a:hover {
+    color: red;
+    /*    background-color: black;*/
+    font-weight: bolder;
+    transform: scale(1.5, 1.5);
+}
+
+.iconav>nav>ul>li>h1>span:nth-child(1) {
+    color: black;
+    /*    visibility: hidden;*/
+    animation: movtext 2s infinite alternate ease-in-out;
+}
+
+.iconav>nav>ul>li>h1>span:nth-child(2) {
+    color: black;
+    /*    visibility: hidden;*/
+    animation: movtext2 2s infinite alternate ease-in-out;
+}
+
+.iconav>nav>ul>li>h1>span:nth-child(3) {
+    color: black;
+    /*    visibility: hidden;*/
+    animation: movtext3 2s infinite alternate ease-in-out;
+}
+
+@keyframes movtext {
+    0% {
+        visibility: hidden;
+    }
+    20% {
+        visibility: hidden;
+    }
+    40% {
+        visibility: visible;
+    }
+    60% {
+        visibility: visible;
+    }
+    80% {
+        visibility: visible;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes movtext2 {
+    0% {
+        visibility: hidden;
+    }
+    20% {
+        visibility: hidden;
+    }
+    40% {
+        visibility: hidden;
+    }
+    60% {
+        visibility: visible;
+    }
+    80% {
+        visibility: visible;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes movtext3 {
+    0% {
+        visibility: hidden;
+    }
+    20% {
+        visibility: hidden;
+    }
+    40% {
+        visibility: hidden;
+    }
+    60% {
+        visibility: hidden;
+    }
+    80% {
+        visibility: visible;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+.headmain {
+    width: 34%;
+    height: auto;
+    text-align: center;
+    /*    background-color: purple;*/
+    /*    border: 1px solid black;*/
+    padding-left: 10px;
+    /*    padding-top:-200px;*/
+    margin-top: 50px;
+    position: fixed;
+    /*    border-radius: 50px;*/
+    margin-left: 5px;
+    /*    margin-right: 50px;*/
+}
+
+.headmain>h2 {
+    color: red;
+    margin-top: 50px;
+    font-size: 3em;
+    /*    border: 5px solid black;*/
+}
+
+.headmain>h2>span {
+    color: black;
+}
+
+.headmain>p {
+    margin-top: 50px;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    /*    border: 5px solid black;*/
+}
+
+.headmain>p>span {
+    color: rgb(234, 233, 231);
+}
+
+.mainpagephotowithtext {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    /*    line-height: 400px;`*/
+    width: 70%;
+    height: 300px;
+    /*    background-color: red;*/
+    border-radius: 100%;
+    background-image: url("file:///C:/Users/Pooja/Downloads/DSC_0017.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*    border: 1px solid mediumaquamarine;*/
+}
+
+.mainpagephotowithtext:hover {
+    transform: scale(1.1, 1.);
+}
+
+.icons {
+    margin-top: 40px;
+}
+
+.icons>i {
+    color: gray;
+    /*    background-color: green;*/
+    justify-content: space-around;
+    padding: 40px;
+    /*    border: 1px solid black;*/
+    background-color: white;
+    border-radius: 50px;
+}
+
+.icons>i:nth-child(1):hover {
+    /*    color: lightblue;*/
+    color: blue;
+}
+
+.icons>i:nth-child(2):hover {
+    content: "\f16d";
+    color: rgb(206, 11, 92);
+    /* background-image: linear-gradient(45deg, #f09433 0%, #e6683c 50%, #cc2366 75%, #bc1888 100%); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+
+.icons>i:nth-child(3):hover {
+    color: green;
+}
+
+.icons>i:nth-child(4):hover {
+    color: black;
+    /*    background-color: red;*/
+    /*    border: 1px solid black;*/
+}
+
+.section {
+    /*    padding-top: 30px;*/
+    margin-top: 50px;
+    /*    padding: 100px;*/
+    float: right;
+    width: 65%;
+    height: auto;
+    /*    display: inline-block;*/
+    /*    border: 10px solid black;*/
+    margin-right: 10px;
+    padding-left: 50px;
+    /*    position: fixed;*/
+    /*    background-color:gray;*/
+    /*    color: white;*/
+    box-shadow: 10px;
+    border-radius: 50px;
+    /*    background-image:url('file:///C:/Users/Pooja/Downloads/%E2%80%94Pngtree%E2%80%94pure%20watercolor%20gradient%20colorful%20background_964413.jpg');*/
+    /*    background-image: url('file:///C:/Users/Pooja/Downloads/pexels-juan-pablo-serrano-arenas-1242348.jpg');*/
+    background-image: url('file:///C:/Users/Pooja/Downloads/pexels-scott-webb-3255761.jpg');
+    background-size: cover;
+    /*    color: ;*/
+}
+
+.section>div>section>h3 {
+    font-size: 3vw;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.section>div>section>h3>span {
+    color: red;
+}
+
+.section>div>section>p {
+    text-align: left;
+    font-size: 1.5vw;
+    color: black;
+    /*    color: white;*/
+    padding-top: 10px;
+}
+
+.headerabout>ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 10px;
+    /*    padding-left: 40px;*/
+    font-size: 1.5vw;
+    margin-right: 10px;
+}
+
+.headerabout>p {
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 20px;
+}
+
+.headerabout>p>span {
+    color: red;
+}
+
+hr {
+    padding-top: 5px;
+    margin-right: 30px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.services {
+    margin-top: 30px;
+    /*    border:1px solid black;*/
+}
+
+.services>li {
+    padding-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    border-block-width: 15px;
+    /*    border-top-color: red;*/
+    /*    border-bottom-color: red;*/
+    background-color: white;
+}
+
+.services>li>span {
+    padding-left: 30%;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.backs {
+    padding-left: 0;
+    margin-right: 20%;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.services>li>img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    /*    background-color: red;*/
+    /*    color:white;*/
+    /*    padding-left: 20%;*/
+    /*    padding-right: 20%;*/
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.services>li:nth-child(2) {
+    color: black;
+    /*    text-align: right;*/
+    /*    margin-left: -10px;*/
+}
+
+.services>li:nth-child(1) {
+    color: black;
+    /* padding-left: -10px; */
+    /* margin-left: 10px; */
+    text-align: 0;
+}
+
+
+/* .services>li>p:nth-child(2) {
+    margin-left: -10px;
+    float: right;
+    text-align: left;
+    margin-left: -20px;
+} */
+
+.section>img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 45%;
+}
+
+.section>p {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: blue;
+}
+
+.section>ul>li {
+    font-size: 1.5vw;
+    list-style: square;
+    padding: 10px 10px 10px 10px;
+}
+
+.section>ul>li>p {
+    color: grey;
+    font-weight: bolder;
+}
+
+.section>ul>li>p:hover {
+    color: black;
+}
+
+.skil {
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+}
+
+.softs {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.softs>li {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px 10px 10px 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    /*    justify-content: space-between;*/
+}
+
+.softs p {
+    font-size: 1.5vw;
+    color: green;
+}
+
+.softs img {
+    width: 70px;
+    height: 70px;
+}
+
+.listingofsofts {
+    list-style: none;
+    display: flex;
+    font-size: 1.5vw;
+    /*    border: 2px solid black;*/
+    color: grey;
+}
+
+.listingofsofts>li {
+    padding-top: 6px;
+    padding-left: 32px;
+    padding-right: 15px;
+    /*    font-weight:bold;*/
+}
+
+.softs>li:nth-child(1):hover {
+    transform: scale(1.5, 1.5);
+}
+
+.softs>li:nth-child(2):hover {
+    transform: scale(1.5, 1.5);
+}
+
+.softs>li:nth-child(3):hover {
+    transform: scale(1.5, 1.5);
+}
+
+.softs>li:nth-child(4):hover {
+    transform: scale(1.5, 1.5);
+    /* color: black; */
+    /* background-color: black; */
+    /* border-radius: 50%; */
+}
+
+.softs>li:nth-child(5):hover {
+    transform: scale(1.5, 1.5);
+}
+
+table {
+    font-size: 2vw;
+    /* margin: 100px 100px 100px 100px; */
+}
+
+td {
+    padding-top: 50px;
+    /* padding-left: 70%; */
+    color: black;
+}
+
+.btn {
+    color: rgb(253, 253, 253);
+    background-color: black;
+    width: 100px;
+    height: 45px;
+    font-size: 2vw;
+    margin-top: 40px;
+    /* margin-left: 50%; */
+    border-radius: 10px;
+}
+
+h5>span {
+    font-size: 2vw;
+    /* font-weight: bolder; */
+    padding-left: 150px;
+}
+
+h5 {
+    font-size: 2vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #6fdb22;
+}
+
+.listingofsofts:hover {
+    color: black;
+}

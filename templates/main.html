@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load  static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="../static/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+    <script src="https://kit.fontawesome.com/553a07ba49.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url('{%static "b1.jpg"%}');">
+    <div class="iconav" style="background-image: url('{%static "navbg.jpg"%}');">
+      <nav>
+        <ul>
+          <li><h1 >S<span>H</span><span>I</span><span>V.</span></h1></li>
+          {% comment %} <li><lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="
+            primary:#121331" scale="65"style="width:20px;height:20px"></lord-icon><a href="#" >Home</a></li> {% endcomment %}
+          <li><lord-icon src="https://cdn.lordicon.com/ogkplaef.json" trigger="hover" style="width:20px;height:20px"></lord-icon><a href="#one">About-US</a></li>
+          <li><lord-icon src="https://cdn.lordicon.com/iiixgoqp.json" trigger="hover"style="width:22px;height:22px;padding-top:3px;"></lord-icon><a href="#two">Resume</a></li>
+          <li><lord-icon src="https://cdn.lordicon.com/ssvybplt.json" trigger="hover" style="width:25px;height:25px;padding-top: 5px;"></lord-icon><a href="#three">Contact-US</a></li>            
+        </ul>
+      </nav>
+    </div>
+    <div class="headmain">
+        <div >
+          <img src="/static/p1.jpg" class="mainpagephotowithtext">
+        </div>
+        <h2>S<span>hivkant Pandey</span></h2>
+        <!-- <hr> -->
+        <p>Hi I'am <span>Full Stack Developer.</span></p>
+        <div class="icons">
+            <i class="fa fa-twitter fa-2x" ></i>
+            <i class="fa fa-instagram fa-2x"></i>
+            <i class="fa fa-whatsapp fa-2x" ></i>
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="section" id="one" style="background-image: url('{%static "nsecim.jpg"%}');">
+      <div>
+        <section >
+          <h3><span>A</span>bout Me</h3>
+          <p>Hello! I'am Shivkant Pandey.
+          Iam a Full Stack Developer,I love making websites or interacting with an live websites and i also like to host a Website.Check out my featured websites,designs and highlights.
+          </p>
+        </section>
+        <br>
+        <br>
+        <header class="headerabout">
+          <ul>
+            <li><p>AGE:... 21</p></li>
+            <li><span>RESIDENCE:... INDIA</p></li>
+          </ul>
+          <ul>
+            <li>FREELANCE: Available </li>
+            <li>ADDRESS: New Delhi, INDIA</li>
+          </ul>
+          <p><span>S</span>ervices</p>
+          <hr>
+          <ul class="services">
+            <li><img src="/static/front.png"><br><span>front-end Developer</span><br><p>I created front end design where user can interact<br>with websites and having a smooth interaction <br>with websites.</p></li>
+            {% comment %} li><img src="/static/fe.png"><br>front-end Developer<br>I created front end design where user can interact<br>with websites and having a smooth interaction <br>with websites.</li> {% endcomment %}
+            <li><img src="/static/backend.jpg" class="img"><br><span class="backs">Back-end Developer</span><br><p>I created Back end modules that helps user for<br> easily get in touch with data without having any <br>coding skills.</p></li>
+          </ul>
+          <hr>
+        </header>
+      </div>
+    </div>
+    <div class="section" id="two" style="background-image: url('{%static "nsecim.jpg"%}');">
+          <div>
+            <section >
+              <h3 ><span>R</span>esume</h3>
+            </section>
+          </div>
+          <img src="/static/ed.png" >
+          <p >Education</p>
+          <ul>
+            <li><span>2019-2022</span><p>Guru Gobind Singh Indraprastha University<br>New Delhi<br>Bachelor's Degree in Computer Application Comm-it career Academy, New Delhi.</p></li>
+            <li><span>2017-2019</span><p>K.S.K Academy<br>New Delhi<br>12<sup>th</sup>Senior Secondary Examination (CBSE Board), New Delhi.</p></li>
+            <li><span>2016-2017</span><p>Yogi Arvind Bal Sarvodaya Vidyalaya<br>New Delhi<br>10<sup>th</sup> Secondary Examination(CBSE Board), New Delhi.</p></li>
+          </ul>
+          <p>Software skills</p>
+          <span class="skil">Front-End</span> 
+          <ol class="softs">
+            <li><i class="fa fa-html5 fa-4x"></i></li>
+            <li><i class="fa fa-css3 fa-4x"></i></li>
+            <li><img src="/static/js.png"></li>
+            <li><img src="static/rt.png"></li>
+            {% comment %} <li><img src="file:///C:/Users/Pooja/Downloads/bootstrap.svg"></p></li> {% endcomment %}
+            <li><i class="fa-brands fa-bootstrap fa-5x"></i></li>
+          </ol>
+          <ol class="listingofsofts">
+            <li>HTML5<br>Intermediate</li>
+            <li>CSS3<br>Intermediate</li>
+            <li>JAVASCRIPT<br>Intermediate</li>
+            <li>REACT.JS<br>Intermediate</li>
+            <li>BOOTSTRAP<br>Intermediate</li>
+          </ol>
+          <span class="skil">Back-End</span>
+          <ol class="softs">
+            <li><i class="fa-brands fa-python fa-5x""></i></li>
+            <li><img src="/static/dj.png"></li>
+            <li><img src="/static/mysql.png"></li>
+          </ol>
+          <ol class="listingofsofts">
+            <li>Python<br>Intermediate</li>
+            <li>D-jango<br>Intermediate</li>
+            <li>Mysql<br>Intermediate</li>
+          </ol>
+    </div>
+    <div class="section" style="background-image: url('{%static "cont3.jpg"%}');">
+      <div>
+        <section id="three">
+          <h3><span>C</span>ontact us</h3>
+        </section>
+      </div>
+      <h5><span>Need Something?Our Team is here to help!</span><br>Fill our contact form for answers to anything you might be wondering.</h5>
+      <form method="POST">
+        {% csrf_token %}
+        <table>
+          <tr>
+            <td>Name</td>
+            <td>{{port.Name}}</td>
+          </tr>
+          <tr>
+            <td>Contact</td>
+            <td>{{port.contact}}</td>
+          </tr>
+          <tr>
+            <td>Message</td>
+            <td>{{port.message}}</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button type="Submit" class="btn">Sent</button></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+</body>
+</html>
